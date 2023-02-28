@@ -1,0 +1,88 @@
+/*font-family: 'Archivo-Narrow';
+font-family: 'Battambang';*/
+:root {
+  --primary: white;
+  --secondary: red;
+  --third: blue;
+  --fourth: black;
+}
+h1 {
+  font-family: "Archivo-Narrow";
+  font-size: 3.5rem;
+}
+h2 {
+  font-family: "Archivo-Narrow";
+  font-size: 2rem;
+}
+
+.flex {
+  display: flex;
+}
+.flex-direction {
+  flex-direction: row;
+}
+nav {
+  color: var(--primary);
+  background-color: var(--secondary);
+  margin-top: 0.25rem;
+  padding: 0.5rem;
+}
+
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+}
+body {
+  display: flex;
+  background-color: var(--third);
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-image: url(https://scontent.ftuc1-2.fna.fbcdn.net/v/t39.30808-6/229887687_519703279283618_4476223843373552080_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHxpA69vL6Nht52KbwX_3WWNvWPAYVMhW429Y8BhUyFbr8Nsoj0ouaYcvonzUW6JJ_QiZDa6lxo__RWSaqxJN4M&_nc_ohc=oLdsa5FheE0AX-k94MG&_nc_ht=scontent.ftuc1-2.fna&oh=00_AfCO6Uoy9yr1U0_aZ4EpvFrkDznUw_yO14gLu_u2LSaMAg&oe=64016B06);
+  background-position: center;
+  background-size: cover;
+}
+.center {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+footer {
+  margin-top: auto;
+  background-color: var(--secondary);
+  color: var(--primary);
+}
+.global-padding {
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+@media (min-width: 768px) {
+  .global-padding {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+}
+.grid {
+  display: grid;
+  grid-template-columns: 450px;
+  gap: 3rem;
+}
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: 300px 300px;
+  }
+}
+
+.colum {
+  display: flex;
+  flex-direction: column;
+}
+.promos {
+  height: 250px;
+  border: 7px solid var(--primary);
+  border-radius: 7px;
+  font-family: "Battambang";
+  font-size: 2rem;
+}
