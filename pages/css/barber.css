@@ -8,13 +8,25 @@ font-family: 'Battambang';*/
 }
 h1 {
   font-family: "Archivo-Narrow";
-  font-size: 3.5rem;
+  font-size: 3rem;
+  margin-top: 5rem;
+  color: var(--primary);
 }
 h2 {
   font-family: "Archivo-Narrow";
   font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: var(--primary);
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
-
+p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
 .flex {
   display: flex;
 }
@@ -26,6 +38,9 @@ nav {
   background-color: var(--secondary);
   margin-top: 0.25rem;
   padding: 0.5rem;
+}
+img {
+  width: 100%;
 }
 
 .navbar {
@@ -43,6 +58,7 @@ header {
   background-image: url(https://scontent.ftuc1-2.fna.fbcdn.net/v/t39.30808-6/229887687_519703279283618_4476223843373552080_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHxpA69vL6Nht52KbwX_3WWNvWPAYVMhW429Y8BhUyFbr8Nsoj0ouaYcvonzUW6JJ_QiZDa6lxo__RWSaqxJN4M&_nc_ohc=oLdsa5FheE0AX-k94MG&_nc_ht=scontent.ftuc1-2.fna&oh=00_AfCO6Uoy9yr1U0_aZ4EpvFrkDznUw_yO14gLu_u2LSaMAg&oe=64016B06);
   background-position: center;
   background-size: cover;
+  height: 25rem;
 }
 .center {
   text-align: center;
@@ -60,18 +76,18 @@ footer {
 }
 @media (min-width: 768px) {
   .global-padding {
-    padding-left: 5vw;
-    padding-right: 5vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
   }
 }
 .grid {
   display: grid;
-  grid-template-columns: 450px;
+  grid-template-columns: 1fr;
   gap: 3rem;
 }
 @media (min-width: 768px) {
   .grid {
-    grid-template-columns: 300px 300px;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -80,9 +96,12 @@ footer {
   flex-direction: column;
 }
 .promos {
-  height: 250px;
-  border: 7px solid var(--primary);
-  border-radius: 7px;
+  height: 10rem;
+  border: 2rem solid var(--primary);
+  border-radius: 2rem;
   font-family: "Battambang";
-  font-size: 2rem;
+  font-size: 1.5rem;
+}
+.inline-block {
+  display: block;
 }
