@@ -7,10 +7,11 @@ font-family: 'Battambang';*/
   --fourth: black;
 }
 h1 {
+  bac
   font-family: "Archivo-Narrow";
   font-size: 3rem;
   margin-top: 5rem;
-  color: var(--primary);
+  color: var(--fourth);
 }
 h2 {
   font-family: "Archivo-Narrow";
@@ -27,16 +28,28 @@ p {
   padding-left: 5vw;
   padding-right: 5vw;
 }
+h5 {
+  color: var(--primary);
+}
 .flex {
   display: flex;
 }
 .flex-direction {
   flex-direction: row;
 }
+.flex li {
+  margin: 1rem;
+}
+.flex li button {
+  border: none;
+  border-radius: 5px;
+}
+.flex li button:hover {
+  background-color: var(--third);
+}
 nav {
   color: var(--primary);
   background-color: var(--secondary);
-  margin-top: 0.25rem;
   padding: 0.5rem;
 }
 img {
@@ -65,10 +78,14 @@ header {
   align-items: center;
   justify-content: center;
 }
-footer {
+footer { display: block;
+  margin: auto;
   margin-top: auto;
   background-color: var(--secondary);
   color: var(--primary);
+}
+.footer-iframe{
+  margin: 2rem;
 }
 .global-padding {
   padding-left: 5vw;
@@ -95,6 +112,13 @@ footer {
   display: flex;
   flex-direction: column;
 }
+.flex-center{ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
+}
+
 .promos {
   height: 10rem;
   border: 2rem solid var(--primary);
@@ -105,3 +129,16 @@ footer {
 .inline-block {
   display: block;
 }
+
+@media (min-width: 1200px) {
+  footer {
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+  }
+.footer-iframe{
+  margin-right: 4rem;
+}  
+  }

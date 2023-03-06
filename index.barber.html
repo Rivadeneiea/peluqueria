@@ -13,20 +13,32 @@
   </head>
   <body>
     <nav class="flex navbar global-padding">
-      <h5>logo</h5>
+      <i class="fa-solid fa-scissors">
+        <a href="/index.barber.html"></a>
+      </i>
       <div class="flex navbar">
-        <ul class="flex">
-          <li><button>Cortes</button></li>
-          <li><button>Barba</button></li>
-          <li><button>Color</button></li>
-          <li><button>Playstation</button></li>
-        </ul>
-      </div>
+    <ul class="flex">
+    </li>
+    <li>
+      <a href="./pages/pelu.html"><button>Cortes</button> </a>
+    </li>
+    <li>
+        <div class="servicio-pelu">
+          <a href="./pages/barba.html"><button>Barba</button></a>
+        </div>
+      </li>
+      
+      <li>
+        <a href="./pages/color.html"><button>Color</button></a>
+    </ul>
+  </div>
     </nav>
     <header class="global-padding">
       <div class="center">
-        <h1>Jose Barberiacerveceria</h1>
-        <h5>Av jujuy 583</h5>
+        <h1>Jose BarberiaCerveceria</h1>
+        <br>
+        <br>
+      <h5>Avenida Jujuy 583</h5>
       </div>
     </header>
     <div class="center colum">
@@ -130,17 +142,17 @@
       </div>
     </section>
     <h2 class="flex center colum">Ayudanos a mejorar dejanos tu comentario</h2>
-    <div class="flex colum">
+    <div class="flex-center">
       <label for="comentario"></label>
       <textarea
         name="comentario"
         id="comentario"
-        cols="30"
+        cols="50"
         rows="10"
         placeholder="ingrese su comentario"
       ></textarea>
     </div>
-    <div class="flex colum">
+    <div class="flex-center">
       <label for="name">Nombre</label>
       <input id="Nombre" name="Nombre" placeholder="Nombre" type="text" />
       <label for="Apellido">Apellido</label>
@@ -150,24 +162,31 @@
       <button>Enviar</button>
     </div>
     <footer>
-      <a href="@joservbarberiacerveceria">@joservbarberiacerveceria</a>
-      <h5>Nuestra ubicacion</h5>
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14240.325759036426!2d-65.2129552!3d-26.8373619!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd055a31774eeb2ff!2sJos%C3%A9%20Rivadeneira%20Barber%C3%ADa%20%26%20Cervecer%C3%ADa!5e0!3m2!1ses!2sar!4v1672076386003!5m2!1ses!2sar"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-      ></iframe>
-      <h5>Aprende con nosotros</h5>
-
-      <iframe
+     <div class="footer-iframe">
+       <h5>Nuestra ubicacion</h5>
+       <iframe
+       src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14240.325759036426!2d-65.2129552!3d-26.8373619!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd055a31774eeb2ff!2sJos%C3%A9%20Rivadeneira%20Barber%C3%ADa%20%26%20Cervecer%C3%ADa!5e0!3m2!1ses!2sar!4v1672076386003!5m2!1ses!2sar"
+       style="border: 0"
+       allowfullscreen=""
+       loading="lazy"
+       referrerpolicy="no-referrer-when-downgrade"
+       ></iframe>
+      </div>
+     <div class="footer-iframe">
+        <h5>Aprende con nosotros</h5>
+        
+        <iframe
         src="https://www.youtube.com/embed/23yjFAbZ7IQ"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
-      ></iframe>
+        ></iframe>
+      </div>
     </footer>
+    <script
+      src="https://kit.fontawesome.com/7942b888ac.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
