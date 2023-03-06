@@ -7,7 +7,6 @@ font-family: 'Battambang';*/
   --fourth: black;
 }
 h1 {
-  bac
   font-family: "Archivo-Narrow";
   font-size: 3rem;
   margin-top: 5rem;
@@ -78,13 +77,14 @@ header {
   align-items: center;
   justify-content: center;
 }
-footer { display: block;
+footer {
+  display: block;
   margin: auto;
   margin-top: auto;
   background-color: var(--secondary);
   color: var(--primary);
 }
-.footer-iframe{
+.footer-iframe {
   margin: 2rem;
 }
 .global-padding {
@@ -112,11 +112,11 @@ footer { display: block;
   display: flex;
   flex-direction: column;
 }
-.flex-center{ 
+.flex-center {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center
+  justify-content: center;
 }
 
 .promos {
@@ -132,13 +132,13 @@ footer { display: block;
 
 @media (min-width: 1200px) {
   footer {
-   display: flex;
-   flex-direction: row;
-   width: 100%;
-   align-items: center;
-   justify-content: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
   }
-.footer-iframe{
-  margin-right: 4rem;
-}  
+  .footer-iframe {
+    margin-right: 4rem;
   }
+}
