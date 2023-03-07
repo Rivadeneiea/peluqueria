@@ -72,10 +72,11 @@ body {
 }
 
 header {
-  background-image: url(https://scontent.ftuc1-2.fna.fbcdn.net/v/t39.30808-6/229887687_519703279283618_4476223843373552080_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHxpA69vL6Nht52KbwX_3WWNvWPAYVMhW429Y8BhUyFbr8Nsoj0ouaYcvonzUW6JJ_QiZDa6lxo__RWSaqxJN4M&_nc_ohc=oLdsa5FheE0AX-k94MG&_nc_ht=scontent.ftuc1-2.fna&oh=00_AfCO6Uoy9yr1U0_aZ4EpvFrkDznUw_yO14gLu_u2LSaMAg&oe=64016B06);
+  background-image: url(https://img.freepik.com/fotos-premium/salon-belleza-hombres-corte-pelo-hombres-barberia-nuevo-estilo-corte-pelo-2020_217333-381.jpg?w=2000);
   background-position: center;
   background-size: cover;
-  height: 25rem;
+  width: 100%;
+  height: 300px;
 }
 .center {
   text-align: center;
