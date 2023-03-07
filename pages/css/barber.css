@@ -46,6 +46,7 @@ h5 {
 }
 .flex li button:hover {
   background-color: var(--third);
+  color: var(--primary);
 }
 .flex li button:active {
   background-color: var(--secondary);
