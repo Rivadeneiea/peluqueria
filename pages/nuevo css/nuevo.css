@@ -1,0 +1,63 @@
+/*font-family: 'Bungee Shade', cursive;
+font-family: 'Goblin One', cursive;
+font-family: 'Holtwood One SC', serif;*/
+.bg-primary {
+  background-color: #000235 !important;
+}
+.bg-secondary {
+  background-color: #ec905c !important;
+}
+.bg-info {
+  background-color: #347fc0 !important;
+}
+.bg-darkorange {
+  background-color: #ce9a5d !important;
+}
+
+.bg-dark {
+  background-color: #000 !important;
+}
+.bg-light {
+  background-color: #fff !important;
+}
+
+.text-primary {
+  background-color: #000235 !important;
+}
+.text-secondary {
+  background-color: #ec905c !important;
+}
+.text-info {
+  background-color: #347fc0 !important;
+}
+.text-darkorange {
+  background-color: #ce9a5d !important;
+}
+.text-dark {
+  background-color: #000 !important;
+}
+.text-light {
+  background-color: #fff !important;
+}
+body {
+  font-family: "Bungee Shade", cursive;
+  font-family: "Goblin One", cursive;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Holtwood One SC", serif;
+  font-weight: 700;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+  font-family: "Holtwood One SC", serif;
+  font-weight: 700;
+}
