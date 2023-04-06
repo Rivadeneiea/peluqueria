@@ -1,6 +1,23 @@
-/*font-family: 'Bungee Shade', cursive;
-font-family: 'Goblin One', cursive;
-font-family: 'Holtwood One SC', serif;*/
+/*font-family: 'Advent Pro', sans-serif;
+font-family: 'Ubuntu', sans-serif;*/
+.text-primary {
+  color: #000235 !important;
+}
+.text-secondary {
+  color: #ec905c !important;
+}
+.text-info {
+  color: #347fc0 !important;
+}
+.text-darkorange {
+  color: #ce9a5d !important;
+}
+.text-dark {
+  color: #000 !important;
+}
+.text-light {
+  color: #fff !important;
+}
 .bg-primary {
   background-color: #000235 !important;
 }
@@ -13,7 +30,6 @@ font-family: 'Holtwood One SC', serif;*/
 .bg-darkorange {
   background-color: #ce9a5d !important;
 }
-
 .bg-dark {
   background-color: #000 !important;
 }
@@ -21,35 +37,18 @@ font-family: 'Holtwood One SC', serif;*/
   background-color: #fff !important;
 }
 
-.text-primary {
-  background-color: #000235 !important;
-}
-.text-secondary {
-  background-color: #ec905c !important;
-}
-.text-info {
-  background-color: #347fc0 !important;
-}
-.text-darkorange {
-  background-color: #ce9a5d !important;
-}
-.text-dark {
-  background-color: #000 !important;
-}
-.text-light {
-  background-color: #fff !important;
-}
 body {
-  font-family: "Bungee Shade", cursive;
-  font-family: "Goblin One", cursive;
+  font-family: "Advent Pro", sans-serif;
+  background-color: #000235;
 }
 
 h1,
 h2,
 h3,
 h4,
-h5 {
-  font-family: "Holtwood One SC", serif;
+h5,
+h6 {
+  font-family: "Ubuntu", sans-serif;
   font-weight: 700;
 }
 
@@ -57,7 +56,14 @@ h5 {
 .h2,
 .h3,
 .h4,
-.h5 {
-  font-family: "Holtwood One SC", serif;
+.h5 .h6 {
+  font-family: "Ubuntu", sans-serif;
   font-weight: 700;
+}
+
+body,
+main,
+footer {
+  background-color: #000235;
+  color: #fff;
 }
