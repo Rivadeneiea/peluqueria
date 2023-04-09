@@ -67,3 +67,6 @@ footer {
   background-color: #000235;
   color: #fff;
 }
+.navbar-dark {
+  color: #fff !important;
+}
