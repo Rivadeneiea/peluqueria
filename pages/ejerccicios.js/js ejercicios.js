@@ -76,42 +76,44 @@ input: 15
 Output: El 10 es divisible por 2.
 Output: El 15 no es divisible por 2.*/
 
-/*let num1 = parseInt(prompt("ingrese un numero"));
+/*let num1 = parseInt(prompt("ingrese un numero")); 
 if (num1 % 2 === 0) {
   document.write("El" + num1 + "es divisible por dos");
 } else {
   document.write("El" + num1 + "no divisible por dos");
 }*/
+// if = si else = sino
 
 /*Dificultad:  🟢🟡 
 9.- Escribe un programa que pida una frase y escriba las vocales que aparecen
 Nota: Tener en cuenta la función length y substring o charAt (developer mozilla)
 Ejemplo:
 
-
+length = longitud de la cadena de texto (20 letras)
+substring = extrae un parte de la cadena de texto
 
 input: Hola mundo
 Output: oauo
 */
-/*
-let frase = prompt("Ingresa una frase:");
-let vocales = "";
 
-for (let i = 0; i < frase.length; i++) {
-  let letra = frase.charAt(i).toLowerCase();
-  if (
-    letra === "a" ||
-    letra === "e" ||
-    letra === "i" ||
-    letra === "o" ||
-    letra === "u"
-  ) {
-    vocales += letra;
-    console.log(vocales);
-  }
-}
+// let frase = prompt("Ingresa una frase: ");
+// let vocales = "";
+// variable auxiliar vacia para los for
+// for desde (let i = 0; "mientras" i < frase.length; i++) {
+//   let letra = frase.charAt(i).toLowerCase();
+//   if (
+//     letra === "a" || "significa o"
+//     letra === "e" ||
+//     letra === "i" ||
+//     letra === "o" ||
+//     letra === "u"
+//   ) {
+//     vocales += letra; concatenar
+//     console.log(vocales);
+//   }
+// }
 
-document.write(vocales);*/
+// document.write(vocales);
 
 /*Dificultad:  🟢🟡
 10.- Escribe un programa que pida un número y nos diga si es divisible por 2, 3, 5 o 7 (sólo hay que comprobar si lo es por uno de los cuatro)
@@ -122,6 +124,19 @@ input: 20
 
 Output: El 20 es divisible por 2.*/
 
+// let num1 = parseInt(prompt(" ingrese un numero"));
+// if (num1 % 2 === 0) {
+//   document.write(num1 + " es divisible por 2");
+// } else if (num1 % 3 === 0) {
+//   document.write(num1 + " es divisible por 3");
+// } else if (num1 % 5 === 0) {
+//   document.write(num1 + " es divisible por 5");
+// } else if (num1 % 7 === 0) {
+//   document.write(num1 + " es divisible por 7");
+// } else {
+//   document.write(num1 + " no es divisible por 2 , 3 , 5 , 7");
+// }
+
 /*Dificultad:  🟢🟡
 11.- Añadir al ejercicio anterior que nos diga por cuál de los cuatro es divisible (hay que decir todos por los que es divisible)
 Ejemplo: 
@@ -130,46 +145,71 @@ input: 20
 input: 210
 
 
-
+let = varia el valor
+const = no varia nunca
 
 Output: El 20 es divisible por 2 y por 5.
 Output: El 210 es divisible por 2, por 3, por 5 y por 7.*/
 
-/*const num = parseInt(prompt("Ingrese un número"));
-if (num % 2 === 0) {
-  document.write("El " + num + " es divisible por 2");
-} else if (num % 3 === 0) {
-  document.write("El " + num + " es divisible por 3");
-} else if (num % 5 === 0) {
-  document.write("El " + num + " es divisible por 5");
-} else if (num % 7 === 0) {
-  document.write("El " + num + " es divisible por 7");
-} else document.write("El " + num + " no es divisible por 2,3,5 o 7");*/
+// const num = parseInt(prompt("Ingrese un número"));
+// let divisible = "";
+// if (num % 2 === 0) {
+//   divisible += "2 , ";
+// }
+// if (num % 3 === 0) {
+//   divisible += "3 , ";
+// }
+// if (num % 5 === 0) {
+//   divisible += "5 , ";
+// }
+// if (num % 7 === 0) {
+//   divisible += "7 , ";
+// }
+// if (divisible === "") {
+//   document.write(num + "no es divisible ni por 2 , 3 , 5 , 7");
+// } else {
+//   document.write(num + " es divisible por " + divisible.slice(0, -2));
+// }
 
 // TAREA
 /* Ante un valor ingresado, indicar si tiene o no contenido.*/
 
-/*var input;
-if (input === undefined) {
-  alert("no tiene contenido : " + input);
-}*/
+// let valor = prompt("ingrese un valor");
+// if (valor === null || valor === "") {
+//   document.write("no tiene contenido");
+// }else {document.write("tiene contenido");
+// }
 
 // 6)
 
 // Dados dos números, indicar cual es mayor o si son iguales.
 
-/*const1 = prompt("ingrese un numero");
-const2 = prompt("ingrese otro numero");
-if (const1 > const2) {
-  alert("el numero mayor es:" + const1);
-} else if (const1 === const2) {
-  alert("son iguales");
-}*/
+// const1 = prompt("ingrese un numero");
+// const2 = prompt("ingrese otro numero");
+// if (const1 > const2) {
+//   alert("el numero mayor es:" + const1);
+// } else if (const1 === const2) {
+//   alert("son iguales");
+// }
 
 // TAREA
-// Pedir las tres notas de un alumno y calcular su promedio, si es mayor
+// Pedir las t=r su promedio, si es mayor
 // a 6, mostrar que aprobó, si es menor a 6, mostrar que desaprobó
 // y si es igual a 6, mostrar que está en condiciones de recuperación.
+// let nota1 = parseFloat(prompt("ingrese nota 1"));
+// let nota2 = parseFloat(prompt("ingrese nota 2"));
+// let nota3 = parseFloat(prompt("ingrese nota 3"));
+// let promedio = (nota1 + nota2 + nota3) / 3;
+// if (promedio > 6) {
+//   document.write("el alumno aprobo con " + promedio.toFixed(2));
+// } else if (promedio < 6) {
+//   document.write("el alumno desaprobo con " + promedio.toFixed(2));
+// } else {
+//   promedio = 6;
+//   document.write(
+//     "el alumno esta en condiciones de recuperar " + promedio.toFixed(2)
+//   );
+// }
 
 // TAREA
 // 7)
@@ -183,21 +223,108 @@ if (const1 > const2) {
 // anteriores debe mostrarse por pantalla el mensaje “La rueda es
 //para un vehículo pequeño”.
 
+// let diametro = parseFloat(prompt("ingrese diametro"));
+// if (diametro > 1.4) {
+//   document.write("la rueda es para vehiculo grande");
+// } else if (diametro <= 1.4 && diametro > 0.8) {
+//   document.write("la rueda es para un vehiculo mediano");
+// } else {
+//   diametro < 0.8;
+//   document.write("la rueda es para un vehiculo pequeño");
+// }
 // b) Si el diámetro es superior a 1.4 con un grosor inferior a 0.4,
 // ó si el diámetro es menor o igual a 1.4 pero mayor que 0.8, con un
 // grosor inferior a 0.25, deberá mostrarse el mensaje “El grosor para
 // esta rueda es inferior al recomendado”
+// let diametro = parseFloat(prompt("ingrese el diametro"));
+// let grosor = parseFloat(prompt("Ingrese el grosor"));
+// if (diametro > 1.4 && grosor < 0.4) {
+//   document.write("el grosor es inferior al recomendado");
+// } else if (diametro <= 1.4 && diametro > 0.8 && grosor < 0.25) {
+//   document.write("el grosor es inferior al recomendado");
+// } else if (diametro > 1.4) {
+//   document.write("la rueda es para vehiculos grandes");
+// } else if (diametro > 0.8) {
+//   document.write("la rueda es para un vehiculo mediano");
+// } else {
+//   document.write("la rueda es para un vehiculo pequeño");
+// }
+
 // TAREA
+
 // 8)
 // Hacer ahora con Switch:
 // Pedir las tres notas de un alumno y calcular su promedio, si es mayor
 // a 6, mostrar que aprobó, si es menor a 6, mostrar que desaprobó
 // y si es igual a 6, mostrar que está en condiciones de recuperación.
+// alt+ctrl+f para identar
+// let nota1 = parseFloat(prompt("ingresar nota 1"));
+// let nota2 = parseFloat(prompt("ingresar nota 2"));
+// let nota3 = parseFloat(prompt("ingresar nota 3"));
+// let promedio = (nota1 + nota2 + nota3) / 3;
+// switch (true) {
+//   case promedio > 6:
+//     document.write("el alumno esta aprobado con " + promedio.toFixed(2));
+//     break;
+//   case promedio < 6:
+//     document.write("el alumno desaprobo con " + promedio.toFixed(2));
+//     break;
+//   case promedio == 6:
+//     document.write(
+//       "el alumo esta en condiciones de recuperacion con un " +
+//         promedio.toFixed(2)
+//     );
+//   default:
+//     document.write(" gracias por usar este programa ");
+//     break;
+// }
 
 // TAREA
 // Hacer ahora con Switch:
 // Solicitar un numero de mes y mostrar el nombre del mes
 // correspondiente.
+
+// let mes = parseInt(prompt("ingrese numero de mes"));
+// switch (mes) {
+//   case 1:
+//     document.write("enero");
+//     break;
+//   case 2:
+//     document.write("febrero");
+//     break;
+//   case 3:
+//     document.write("marzo");
+//     break;
+//   case 4:
+//     document.write("abril");
+//     break;
+//   case 5:
+//     document.write("mayo");
+//     break;
+//   case 6:
+//     document.write("junio");
+//     break;
+//   case 7:
+//     document.write("julio");
+//     break;
+//   case 8:
+//     document.write("agosto");
+//     break;
+//   case 9:
+//     document.write("septiembre");
+//     break;
+//   case 10:
+//     document.write("octubre");
+//     break;
+//   case 11:
+//     document.write("noviembre");
+//     break;
+//   case 12:
+//     document.write("diciembre");
+//     break;
+//   default:
+//     document.write("ingrese un numero de mes valido");
+// }
 
 // TAREA
 // Hacer ahora con Switch:
